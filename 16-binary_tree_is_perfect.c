@@ -3,11 +3,8 @@
 /**
  * binary_tree_is_perfect - checks if a binary tree is perfect
  * @tree: a pointer to the root node of the tree to count the number of nodes
- *
  * Return: the node
  */
-
-
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
 	int leftSide = 0, rightSide = 0;
